@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      # INCIDENT 1: package write permission is missing intentionally.
+      packages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v7
